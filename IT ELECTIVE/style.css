@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url(hehe.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    background: rgba(194, 105, 186, 0.9);
+    text-align: center;
+    padding: 60px 63px;
+    color:rgb(45, 52, 75);
+    position: relative;
+    border-radius: 15px;
+    box-shadow: red;
+    border: solid 3px white;
+    background-image: url(rawrr.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.info{
+    color: black;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+.profp{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: block;
+}
+.pic{
+    display: inline-block;
+    padding: 7px;
+    background: linear-gradient(120deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+}
+.bg{
+    display: inline-block;
+    position: relative;
+    padding-top: 100px;
+}
+
+.socmed a{
+margin: 10px;
+}
+.socmed{
+    padding-top: 10px;
+}
+.insta{
+    width: 43px;
+    height: 43px;
+}
+.facebook{
+    width: 45px;
+    height: 45px;
+}
+.tiktok{
+    width: 45px;
+    height: 45px;
+}
+.logo{
+    list-style: none;
+}
+
+.sc:hover{
+	transition: .5s;
+    box-shadow: 0 5px 4px rgb(0, 0, 0,.5);
+    border-radius: 50%;
+    background: linear-gradient(120deg, #74b9ff, #e66767);
+}
+
+.socmed li{
+    display: inline;
+}
+.more ul {
+    list-style-type: none;
+    padding: 6px;
+    background-color: rgba(2,0,0, 0.4);
+  }
+  .more{
+      margin-top: 10px;
+  }
+.gmore{
+    width: 45px;
+    height: 45px;
+}
+.more:hover{
+
+}
+.contact div{
+    display: flex;
+    align-items: center;
+}
+.clogo{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 5px 4px rgb(0, 0, 0,.5);
+    border-radius: 50%;
+}
+.perinfo{
+    background: linear-gradient(120deg, #74b9ff, #e66767);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+}
+
+.perinfo:hover .clogo{
+    background: none;
+    color: #ff6348;
+    transform: rotate(20deg);
+}
+.perinfo p{
+    font-weight: 20px;
+    letter-spacing: 1px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.5s linear;
+}
+.perinfo:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+/* Talent CSS */
+.containerT{
+    height: 100vh;
+    width: 100%;
+    background: url(hehe.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nextpage{
+    background: rgba(194, 105, 186, 0.9);
+    text-align: center;
+    padding: 60px 63px;
+    color:rgb(45, 52, 75);
+    position: relative;
+    border-radius: 15px;
+    box-shadow: red;
+    border: solid 3px white;
+    background-image: url(rawrr.png);
+    background-repeat: no-repeat;
+}
+nav a{
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.previ{
+    width: 50px;
+    height: 50px;
+}
+.nexti{
+    width: 50px;
+    height: 50px;
+}
+.enroll{
+    width: 800px;
+    height: 350px;
+    padding-top: 25px;
+    border-radius: 8px;
+}
+h2{
+    padding: 10px;
+}
+/*Regform style*/
+.regforms{
+    height: 100vh;
+    width: 100%;
+    background: url(hehe.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    background: rgba(194, 105, 186, 0.9);
+    text-align: center;
+    padding: 80px 70px;
+    color:rgb(45, 52, 75);
+    position: relative;
+    border-radius: 15px;
+    box-shadow: red;
+    border: solid 3px white;
+    background-image: url(rawrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.previi{
+    width: 50px;
+    height: 50px;
+}
+.nextii{
+    width: 50px;
+    height: 50px;
+}
+.regform{
+    padding-top: 15px;
+    border-radius: 9px;
+}
